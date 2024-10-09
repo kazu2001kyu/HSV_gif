@@ -395,7 +395,7 @@ for count in range(230,235,5):
         ax3.set_ylim(-1,1)
         ax3.set_xlabel("x")
         ax3.set_ylabel("y")
-        ax3.set_title("open gate z1-p2-x1/R(retグラフにardation)"+str(count))  # Title
+        ax3.set_title("open gate z1-p2-x1/R(retardation)"+str(count))  # Title
         # Describes a circle on a graph (ec = edge color)
         c = patches.Circle(xy=(0, 0), radius=1.0,fill=False, ec='r')
         # Add a circle to the graph.
